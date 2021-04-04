@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 0.2px 0.2px rgba(80, 80, 80, 0.644);*/
+} 
+
+nav {
+  background-color: rgba(80, 80, 80, 0.644);
+  border-bottom: 5px solid red;
+  overflow: hidden;
+}
+
+ul{
+  list-style-type: none;
+}
+
+ul li {
+  float: right;
+  font-size: 17px;
+  text-align: center;
+  padding: 14px 16px;
+}
+
