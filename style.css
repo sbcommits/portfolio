@@ -72,7 +72,7 @@ body {
 /* Nav Bar ^^^^^ */
 
 .hero {
-  background-image: url("/img/pexels-photo-56759.jpeg");
+  background-image: url("./img/pexels-photo-56759.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
