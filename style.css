@@ -17,6 +17,12 @@ body {
   margin: 0 auto;
 }
 
+.logo {
+  justify-items: left;
+  margin: 0;
+  padding: 0;
+}
+
 /* Nav Bar */
 
 .nav {
@@ -30,7 +36,7 @@ body {
 
 .nav .container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 20px 0;
   transition: all 0.3s ease-in-out;
@@ -118,4 +124,14 @@ body {
   color: #555;
   line-height: 30px;
   letter-spacing: 1.2px;
+}
+
+@media (max-width: 500px) {
+  nav .logo {
+    display: none;
+  }
+
+  .nav .container {
+    justify-content: center;
+  }
 }
