@@ -77,6 +77,45 @@ body {
 
 /* Nav Bar ^^^^^ */
 
+/* Drop down */
+
+li {
+  display: block;
+  transition-duration: 0.5s;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+#dropdown {
+  margin-left: 1101px;
+  display: grid;
+  line-height: 40px;
+}
+
 .hero {
   background-image: url("https://images.pexels.com/photos/56759/pexels-photo-56759.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
   background-repeat: no-repeat;
